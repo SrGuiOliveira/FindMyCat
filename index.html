@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="/images/icon.png">
+    <link rel="stylesheet" href="main.css">
+
+    <title>FindMyCat - Adote seu melhor amigo!</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="/images/icon.png">
+            <h1>FindMyCat</h1>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="#sobre">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#catalog">Encontre seu melhor amigo</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="sobre">
+        <div class="container">
+            <img  class="fachada" alt="fachada da empresa" src="./images/image1_0.jpg">
+            <div>
+                <h2>Conheça nosso trabalho</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, aperiam illum.
+                Natus aspernatur voluptatem dicta temporibus error amet consequuntur asperiores. 
+                Incidunt autem deserunt esse omnis, est velit. Odio, aspernatur voluptas.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi sapiente porro quo quisquam saepe a, quod debitis temporibus suscipit nesciunt aperiam facilis est atque obcaecati deserunt, excepturi exercitationem, aliquid quia.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, aperiam illum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est quaerat amet consectetur hic cum veniam ducimus perspiciatis adipisci aut error, soluta dolor repellendus modi, dignissimos, facere consequatur voluptatibus magnam nobis!
+                    Natus aspernatur voluptatem dicta temporibus error amet consequuntur asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae officia magnam ea ipsum harum est eveniet cupiditate vero voluptates omnis repellat labore, aliquam cum quod, maxime numquam voluptatum suscipit? Tempore? 
+                    Incidunt autem deserunt esse omnis, est velit. Odio, aspernatur voluptas.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, aperiam illum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis officiis accusamus nulla quidem minus soluta. Dolores atque voluptatibus sed, harum cum deserunt qui laboriosam. Deserunt molestias quas architecto optio ratione?
+                        Natus aspernatur voluptatem dicta temporibus error amet consequuntur asperiores. 
+                        Incidunt autem deserunt esse omnis, est velit. Odio, aspernatur voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere molestiae dolor atque ab suscipit quam, numquam esse possimus tenetur veritatis repellendus vitae voluptate porro tempore a. Iste quidem odio alias.</p>            
+            </div>
+        </div>
+    </section>
+    <section id="catalog">
+        <h2>Encontre seu melhor amigo!</h2>
+        <nav class="container">
+            <ul class="perfil">
+                <li>
+                    <img src="./images/Jorge.jpg">
+                    <h3>Jorge</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo atque repellat minima, iste earum nam voluptas. Fugiat possimus obcaecati mollitia quo explicabo non eaque repudiandae nisi ducimus ea. Ratione!</p>
+                    <button>Conheça!</button>    
+                </li>
+                <li>
+                    <img src="./images/Mario.jpg">
+                    <h3>Mario</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo atque repellat minima, iste earum nam voluptas. Fugiat possimus obcaecati mollitia quo explicabo non eaque repudiandae nisi ducimus ea. Ratione!</p>
+                    <button>Conheça!</button>    
+                </li>
+                <li>
+                    <img src="./images/Raphael.jpg">
+                    <h3>Raphael</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo atque repellat minima, iste earum nam voluptas. Fugiat possimus obcaecati mollitia quo explicabo non eaque repudiandae nisi ducimus ea. Ratione!</p>
+                    <button>Conheça!</button>    
+                </li>
+                <li>
+                    <img src="./images/Luke.jpg">
+                    <h3>Luke</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo atque repellat minima, iste earum nam voluptas. Fugiat possimus obcaecati mollitia quo explicabo non eaque repudiandae nisi ducimus ea. Ratione!</p>
+                    <button>Conheça!</button>    
+                </li>
+            </ul>
+        </nav>
+        <button class="verMais">Ver mais</button>
+    </section>
+    <section id="contact">
+        <div class="contact-methods">
+            <div>
+                <h2>Fale conosco!</h2>
+                <p>
+                Deseja adotar um gato? Enviar uma sugestão? Preencha o fomulário abaixo.
+                </p>
+                <form>
+                    <div class="form">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>                    
+                    <div class="form">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>                    
+                    <div class="form">
+                    <label for="assunto">Escolha uma assunto:</label>
+                    <select id="assunto" name="assunto" required>
+                        <option value="" disabled selected hidden>Selecione uma opção</option>
+                        <option value="adocao">Desejo adotar um gato</option>
+                        <option value="resgate">Gostaria de contribuir com o resgate de um gato</option>
+                        <option value="denuncia">Desejo fazer uma denúncia sobre mal tratos, abandono, etc.</option>
+                        <option value="outros">Outro assunto</option>
+                    </select>
+                    </div>
+                    <div class="form">
+                        <label for="textarea">Sua mensagem: </label>
+                        <textarea required></textarea>
+                    </div>                    
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</Button>
+                </form>    
+            </div>
+            <div>
+            <h3>Nossas redes sociais</h3>
+            <ul class="social">
+                <li>
+                    <a href="#">
+                        <img src="./images/social/facebook.png" alt="logo do Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/social/instagram.png" alt="logo do Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/social/tiktok.png" alt="logo do Tiktok">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/social/twitter.png" alt="logo do Twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/social/youtube.png" alt="logo do Youtube">
+                    </a>
+                </li>
+            </ul>
+            </div>
+            <div>
+                <h3>Conheça o nosso espaço!</h3>
+                <p>Rua Siamês nº07, Vila Felina - São Paulo SP</p>                
+            </div>    
+        </div>    
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; FindMyCat - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>            
+</body>
+</html>
